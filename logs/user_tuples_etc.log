@@ -1,0 +1,60 @@
+2023-09-10 13:03:48,052 =============================================================
+2023-09-10 13:03:48,055 =============================================================
+2023-09-10 13:03:48,055 Today is 2023-09-10 at 01:03 PM
+2023-09-10 13:03:48,129 This file is running on: nt Windows 10
+2023-09-10 13:03:48,129 The Python version is: 3.11.4
+2023-09-10 13:03:48,129 The active conda environment is:  None
+2023-09-10 13:03:48,129 The active pip environment is:    None
+2023-09-10 13:03:48,129 The active environment path is:   C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-10 13:03:48,129 The current working directory is: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week 3\datafun-03-datatypes
+2023-09-10 13:03:48,129 This source file is in:           c:\Users\Admin\Documents\MS DATA Analytics\440608\Week 3\datafun-03-datatypes
+2023-09-10 13:03:48,129 =============================================================
+2023-09-10 13:03:48,131 =============================================================
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 1, 'two': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 2, 'two': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 2, 'two': 1, 'red': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 3, 'two': 1, 'red': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Word count is a good way to begin processing text.
+2023-09-10 13:03:48,131 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Given text_zen_of_python.txt and comprehensions,
+2023-09-10 13:03:48,131 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-09-10 13:03:48,131 Calling functions from main block
+2023-09-10 13:03:48,131 tupleA = ('R', 'PG', 'M', 'NR')
+2023-09-10 13:03:48,131 tupleB = ('Comedy', 'Horror', 'Action', 'Romance')
+2023-09-10 13:03:48,131 tuple_rating = ('R', 'PG', 'M', 'NR')
+2023-09-10 13:03:48,131 tuple_genre = ('Comedy', 'Horror', 'Action', 'Romance')
+2023-09-10 13:03:48,131 tupleCat = ('R', 'PG', 'M', 'NR', 'Comedy', 'Horror', 'Action', 'Romance')
+2023-09-10 13:03:48,131 tuple1double = ('R', 'PG', 'M', 'NR', 'R', 'PG', 'M', 'NR')
+2023-09-10 13:03:48,131 setA = {1, 2, 3, 4, 5}
+2023-09-10 13:03:48,131 setB = {5, 6, 7, 8, 9}
+2023-09-10 13:03:48,135 union of sets: {1, 2, 3, 4, 5, 6, 7, 8, 9}
+2023-09-10 13:03:48,135 intersection of sets: {5}
+2023-09-10 13:03:48,135 Person_A = {'name': 'Zendaya', 'age': 27, 'movies': 26}
+2023-09-10 13:03:48,135 Person_B = {'name': 'Mile', 'age': 46, 'movies': 24}
+2023-09-10 13:03:48,135 Add more logging statements to the code to see what happens.
+2023-09-10 13:03:48,135 Explore enough to understand.
+2023-09-10 13:03:48,135 Apply these skills to your own topic domain.
