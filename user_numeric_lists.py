@@ -5,7 +5,7 @@ Modify this docstring.
 
 # import some standard modules first - how many can you make use of?
 import math
-import statistics as stats
+import statistics
 
 
 
@@ -194,7 +194,22 @@ def show_log():
 if __name__ == "__main__":
 
     # call your functions here (see instructions)
-    print("Replace this with calls to your functions." )
+   if __name__ == "__main__":
+    logger.info("Calling functions from main block")
+
+    # call your functions here (see instructions)
+    illustrate_list_statistics()
+    illustrate_list_correlation_and_prediction()
+    illustrate_list_built_in_functions()
+    illustrate_list_methods()
+    illustrate_list_transformations()
+    illustrate_list_comprehensions()
+
+    logger.info("Add more logging statements to the code to see what happens.")
+    logger.info("Explore enough to understand.")
+    logger.info("Apply these skills to your own topic domain.")
+
+    show_log()
 
 
 
