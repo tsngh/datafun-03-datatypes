@@ -1,0 +1,22 @@
+2023-09-10 11:08:56,683 =============================================================
+2023-09-10 11:08:56,683 =============================================================
+2023-09-10 11:08:56,683 Today is 2023-09-10 at 11:08 AM
+2023-09-10 11:08:56,759 This file is running on: nt Windows 10
+2023-09-10 11:08:56,759 The Python version is: 3.11.4
+2023-09-10 11:08:56,759 The active conda environment is:  None
+2023-09-10 11:08:56,759 The active pip environment is:    None
+2023-09-10 11:08:56,759 The active environment path is:   C:\Users\Admin\AppData\Local\Programs\Python\Python311
+2023-09-10 11:08:56,759 The current working directory is: C:\Users\Admin\Documents\MS DATA Analytics\440608\Week 3\datafun-03-datatypes
+2023-09-10 11:08:56,759 This source file is in:           c:\Users\Admin\Documents\MS DATA Analytics\440608\Week 3\datafun-03-datatypes
+2023-09-10 11:08:56,759 =============================================================
+2023-09-10 11:08:56,759 =============================================================
+2023-09-10 11:08:56,759 Calling functions from main block
+2023-09-10 11:08:56,759 The length is: {len_list}
+2023-09-10 11:08:56,761 New sorted set list is: ('Drama', 'Comedy', 'Horror', 'Romance', 'Action')
+2023-09-10 11:08:56,761 Combined list is: (('Milo', 'Zoe'), ('Johnny', 'Amy'), ('Christoph', 'Zendaya'), ('Nick', 'Florence'), ('Brad', 'Megan'))
+2023-09-10 11:08:56,761 Random rating is: G
+2023-09-10 11:08:56,761 Christoph has made movies with Christoph
+2023-09-10 11:08:56,761 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-10 11:08:56,761 There are 38 words in the file.
+2023-09-10 11:08:56,761 The set of unique words is: {'chuck,', 'He', 'woodchuck', 'chuck', 'and', 'wood', 'as', 'could', 'wood.', 'much', 'would', 'wood?', 'would,', 'could,', 'if', 'he', 'How', 'a'}
+2023-09-10 11:08:56,761 There are 18 unique words in the file.
