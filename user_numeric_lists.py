@@ -44,8 +44,8 @@ def illustrate_list_statistics():
     stdev = statistics.stdev(list1)
     variance = statistics.variance(list1)
 
-    logger.info(f"stdev: {stdev}")
-    logger.info(f"variance: {variance}")
+    logger.info(f"stdev: {stdev:.2f}")
+    logger.info(f"variance: {variance:.2f}")
 
 def illustrate_list_correlation_and_prediction():
 
@@ -53,17 +53,17 @@ def illustrate_list_correlation_and_prediction():
     logger.info(f"listy: {listy}")
 
     correlationxy = statistics.correlation(listx, listy)
-    logger.info(f"correlation between x and y: {correlationxy}")
+    logger.info(f"correlation between x and y: {correlationxy:.2f}")
 
     slope, intercept = statistics.linear_regression(listx, listy)
-    logger.info(f"The equation of the best fit line is: y = {slope}x + {intercept}")
+    logger.info(f"The equation of the best fit line is: y = {slope:.2f}x + {intercept:.2f}")
 
     x_max = max(listx)
-    newx = 15  
+    new_x = 15  
 
-    newy = slope * newx + intercept
+    new_y = slope * new_x + intercept
 
-    logger.info("We predict that when x = {newx}, y will be about {newy}")
+    logger.info("We predict that when x = {newx}, y will be about {new_y}")
 
 def illustrate_list_built_in_functions():
 # Calcuate the max and min scores
@@ -144,14 +144,14 @@ def illustrate_list_methods():
 
 def illustrate_list_transformations():
 
-    logger.info("Number list: {list1}")
+    logger.info(f"Number list: {list1}")
 
 # TRANFORMATIONS: Use the built in filter() function to keep x such that x is  less than 4 (or some other cutoff), or keep the even ones, whatever.
-    numbers_under_50 = [filter(lambda x: x < 50, list1)]
+    numbers_under_50 = list(filter(lambda x: x < 50, list1))
     logger.info(f"Numbers under 50: {numbers_under_50}")
 
 # Use the built in map() function to map each x to cuberoot of x (hint: use math module)
-    cubed_numbers = [map(lambda x: x ** 2, list1)]
+    cubed_numbers = list(map(lambda x: x ** (1/3), list1))
     logger.info(f"Cubed numbers: {cubed_numbers}")
 
 # Use the built in map() function to calculate the volume of a cube
@@ -159,18 +159,18 @@ def illustrate_list_transformations():
     logger.info(f"Volume of list1: {volume}")
 
 def illustrate_list_comprehensions():
-    logger.info("List1: {list1}")
+    logger.info(f"List1: {list1}")
 
 #Use a list comprehension to filter (start within square brackets) to get x
 
     numbers_over_50 = [x for x in list1 if x > 50]
-    logger.info("Numbers over 50 (using list comprehensions!): {numbers_over_50}")
+    logger.info(f"Numbers over 50 (using list comprehensions!): {numbers_over_50}")
 
  
 # Use a list comprehension to triple each value in your list1, that is to get x*3 (for x in list1)
 
-    tripled_numberss = [x * 3 for x in list1]
-    logger.info("Tripled numbers (using list comprehensions!): {tripled_numbers}")
+    tripled_numbers = [x*3 for x in list1]
+    logger.info(f"Tripled numbers are: {tripled_numbers}")
 
 
 # Use a list comprehension to transform your numeric list into another numeric list
