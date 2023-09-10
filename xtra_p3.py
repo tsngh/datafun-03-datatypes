@@ -48,12 +48,12 @@ def compare_two_plays():
     # hint: use sorted() to sort the list
     # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    wordset1 = set(wordlist1)  # TODO fix this line
+    wordset2 = set(wordlist2)  # TODO fix this line
 
 
     # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    maxlen = 10  # TODO fix this line
 
     # use a list comprension to get a list of words longer than 10
     # for word in wordset1
@@ -65,9 +65,15 @@ def compare_two_plays():
     # hint: use set()
     # name them longwordset1 and longwordset2
 
-    longwordset1 = set()  # TODO: fix this line
-    longwordset2 = set()  # TODO: fix this line
+    longwordlist1 = [item for item in wordset1 if len(item)> maxlen]
+    longwordlist2 = [item for item in wordset2 if len(item)> maxlen]
 
+    longwordset1 = set(longwordlist1)  # TODO: fix this line
+    longwordset2 = set(longwordlist2)  # TODO: fix this line
+
+    logger.info(f"give me word for {longwordset1} if {longwordlist1} is greater than maxlen")
+    logger.info(f"give me word for {longwordset2} if {longwordlist2} is greater than maxlen")
+    
     # find the intersection of the two sets
     # that is, the words in both longwordset1 1 & longwordset2
     # name this variable longwords
@@ -80,6 +86,14 @@ def compare_two_plays():
     print()
     print(f"{sorted(longwords) = }")
     print()
+
+    logger.info(f"{len(longwordset1)= }")
+    logger.info(f"{len(longwordset2)= }")
+    logger.info(f"{len(longwords)= }")
+    logger.info(" ")
+    logger.info(f"{sorted(longwords)= }")
+    logger.info("")
+
 
     # check your work
     print("TESTING...if nothing prints before the testing is done, you passed!")
