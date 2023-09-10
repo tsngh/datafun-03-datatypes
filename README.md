@@ -1,9 +1,9 @@
 # datafun-03-datatypes
 
 > Practice with Python data types, filter(), map(), and list comprehensions
-Name: Tesheena
-Date: September 9
-Domain: Movies
+-Name: Tesheena
+-Date: September 9
+-Domain: Movies
 ## Get Started
 
 1. Log in to GitHub and fork this repo into your own GitHub account.
